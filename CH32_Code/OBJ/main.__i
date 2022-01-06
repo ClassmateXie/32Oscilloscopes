@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\USB\STM32_USB-FS-Device_Driver\src -I ..\SYSTEM\usart -I ..\HARDWARE\adc
+-I.\RTE\_32Oscilloscopes
+-IC:\Keil_v5\ARM\PACK\Keil\WCH32F1xx_DFP\1.0.1\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-IC:\Keil_v5\ARM\PACK\Keil\WCH32F1xx_DFP\1.0.1
+-D__UVISION_VERSION="525" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
+-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d "main.c"
